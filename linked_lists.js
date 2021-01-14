@@ -1,7 +1,7 @@
 // Linked List Data Structure
 
-// @BigO O(n)
-// @BigOmega Ω(n)
+// @BigO: O(n)
+// @BigOmega: Ω(n)
 
 class Node {
   constructor(data, next = null) {
