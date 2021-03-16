@@ -1,5 +1,4 @@
 /* Binary Trees
-
   @description: A special case of a graph, which is a collection of nodes, and connections or edges between those nodes that does not contain cycles
 */
 
@@ -24,8 +23,9 @@ b.left = d;
 b.right = e;
 c.left = f;
 
-// In Order
-// @Description: left, self, right
+/* In Order
+  @description: left, self, right
+*/
 
 function inOrder(root) {
   if (!root) return;
@@ -35,8 +35,9 @@ function inOrder(root) {
   inOrder(root.right);
 }
 
-// Pre Order
-// @Description: self, left, right
+/* Pre Order
+  @description: self, left, right
+*/
 
 function preOrder(root) {
   if (!root) return;
@@ -46,8 +47,9 @@ function preOrder(root) {
   preOrder(root.right);
 }
 
-// Post Order
-// @Description: left, right, self
+/* Post Order
+  @description: left, right, self
+*/
 
 function postOrder(root) {
   if (!root) return;

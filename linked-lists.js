@@ -1,5 +1,4 @@
 /* Linked List Data Structure
-
   @BigO: O(n)
   @BigOmega: Ω(n)
 */
