@@ -1,5 +1,7 @@
-// Binary Trees
-// @Description: A special case of a graph, which is a collection of nodes, and connections or edges between those nodes that does not contain cycles
+/* Binary Trees
+
+  @description: A special case of a graph, which is a collection of nodes, and connections or edges between those nodes that does not contain cycles
+*/
 
 class Node {
   constructor(data) {
@@ -26,7 +28,7 @@ c.left = f;
 // @Description: left, self, right
 
 function inOrder(root) {
-  if (root === null) return;
+  if (!root) return;
 
   inOrder(root.left);
   console.log(root.data);
@@ -37,7 +39,7 @@ function inOrder(root) {
 // @Description: self, left, right
 
 function preOrder(root) {
-  if (root === null) return;
+  if (!root) return;
 
   console.log(root.data);
   preOrder(root.left);
@@ -48,7 +50,7 @@ function preOrder(root) {
 // @Description: left, right, self
 
 function postOrder(root) {
-  if (root === null) return;
+  if (!root) return;
 
   postOrder(root.left);
   postOrder(root.right);
