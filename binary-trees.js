@@ -1,4 +1,4 @@
-/* Binary Trees
+/* Binary Tree
   @description: A special case of a graph, which is a collection of nodes, and connections or edges between those nodes that does not contain cycles
 */
 
